@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <parameter name="appURL" value="https://google.com"/>
+  <parameter name="browserType" value="firefox"/>
+  <listeners>
+    <listener class-name="romero.com.ExtendReportExample.base.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Admin Tests(failed)">
+    <classes>
+      <class name="romero.com.ExtendReportExample.CreateAccountTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="createAccountExample1"/>
+          <include name="createAccountExample2"/>
+          <include name="verifyCreateAnAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- romero.com.ExtendReportExample.CreateAccountTest -->
+      <class name="romero.com.ExtendReportExample.SignInPageTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="verifySignInFunction"/>
+          <include name="setUp"/>
+          <include name="SignInPageTestThree"/>
+          <include name="tearDown"/>
+          <include name="SignInPageTestOne"/>
+          <include name="SignInPageTestTwo"/>
+        </methods>
+      </class> <!-- romero.com.ExtendReportExample.SignInPageTest -->
+      <class name="romero.com.ExtendReportExample.BasePageTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="verifyHomePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- romero.com.ExtendReportExample.BasePageTest -->
+    </classes>
+  </test> <!-- Admin Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
