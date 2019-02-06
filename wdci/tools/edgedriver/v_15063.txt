@@ -1,0 +1,1 @@
+I have never managed to get edge to do anything except open the browser and then crash - so driver not included here
