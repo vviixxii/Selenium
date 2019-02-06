@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="selenium.testcases.SearchIT" time="99.67" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/veureka/eclipse-workspace2/basic-selenium-project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/veureka/eclipse-workspace2/basic-selenium-project"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/veureka/eclipse-workspace2/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3132620822477135206.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-43-generic"/>
+    <property name="user.home" value="/home/veureka"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="veureka"/>
+    <property name="java.class.path" value="/home/veureka/Descargas/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify -Pbrowser-chrome"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/veureka/eclipse-workspace2/basic-selenium-project/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="exampleTestForUserSearch" classname="selenium.testcases.SearchIT" time="31.276">
+    <error message="invalid selector: Compound class names not permitted&#10;  (Session info: chrome=70.0.3538.102)&#10;  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 17 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;&#10;System info: host: &apos;veureka-Inspiron-5567&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-43-generic&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:35665}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=/tmp/.com.google.Chrome.ERjozA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 98bb57276f096c625bcea55c05d27acd&#10;*** Element info: {Using=class name, value=div.user-list-info a em}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Compound class names not permitted
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'veureka-Inspiron-5567', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-43-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:35665}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=/tmp/.com.google.Chrome.ERjozA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 98bb57276f096c625bcea55c05d27acd
+*** Element info: {Using=class name, value=div.user-list-info a em}
+	at selenium.testcases.SearchIT.exampleTestForUserSearch(SearchIT.java:51)
+</error>
+    <system-out><![CDATA[2019-01-31 17:05:46.200 INFO  io.github.bonigarcia.wdm.BrowserManager - Reading http://chromedriver.storage.googleapis.com/ to seek [chromedriver]
+2019-01-31 17:05:46.750 INFO  io.github.bonigarcia.wdm.BrowserManager - Latest version of [chromedriver] is 72.0.3626.69
+2019-01-31 17:05:46.751 INFO  io.github.bonigarcia.wdm.BrowserManager - Exporting webdriver.chrome.driver as /home/veureka/.m2/repository/webdriver/chromedriver/linux64/72.0.3626.69/chromedriver
+******** exampleTestForUserSearch
+******** SearchIT -> startPage: http://github.com
+******** search.getSearchString: christian-draeger
+******** searchResultPage.getInputValue: christian-draeger
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 24186
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+ene 31, 2019 5:05:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+ene 31, 2019 5:05:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+    <rerunError message="invalid selector: Compound class names not permitted&#10;  (Session info: chrome=70.0.3538.102)&#10;  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 22 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;&#10;System info: host: &apos;veureka-Inspiron-5567&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-43-generic&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36603}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=/tmp/.com.google.Chrome.5UtL5h}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 1af786a3805e62d8415dd84418074fe6&#10;*** Element info: {Using=class name, value=div.user-list-info a em}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Compound class names not permitted
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'veureka-Inspiron-5567', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-43-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:36603}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=/tmp/.com.google.Chrome.5UtL5h}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1af786a3805e62d8415dd84418074fe6
+*** Element info: {Using=class name, value=div.user-list-info a em}
+	at selenium.testcases.SearchIT.exampleTestForUserSearch(SearchIT.java:51)
+
+      <system-out><![CDATA[2019-01-31 17:06:19.233 INFO  io.github.bonigarcia.wdm.BrowserManager - Reading http://chromedriver.storage.googleapis.com/ to seek [chromedriver]
+2019-01-31 17:06:19.779 INFO  io.github.bonigarcia.wdm.BrowserManager - Latest version of [chromedriver] is 72.0.3626.69
+2019-01-31 17:06:19.780 INFO  io.github.bonigarcia.wdm.BrowserManager - Exporting webdriver.chrome.driver as /home/veureka/.m2/repository/webdriver/chromedriver/linux64/72.0.3626.69/chromedriver
+******** exampleTestForUserSearch
+******** SearchIT -> startPage: http://github.com
+******** search.getSearchString: christian-draeger
+******** searchResultPage.getInputValue: christian-draeger
+]]></system-out>
+      <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c3ene 31, 2019 5:06:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+8) on port 6737
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+ene 31, 2019 5:06:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+    </rerunError>
+    <rerunError message="invalid selector: Compound class names not permitted&#10;  (Session info: chrome=70.0.3538.102)&#10;  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:57 -0700&apos;&#10;System info: host: &apos;veureka-Inspiron-5567&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-43-generic&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33127}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=/tmp/.com.google.Chrome.0geb7y}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 14644662fa9daab623a8671c654e9bd4&#10;*** Element info: {Using=class name, value=div.user-list-info a em}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Compound class names not permitted
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Linux 4.15.0-43-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.0.0', revision: '350cf60', time: '2016-10-13 10:48:57 -0700'
+System info: host: 'veureka-Inspiron-5567', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-43-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:33127}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=/tmp/.com.google.Chrome.0geb7y}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 14644662fa9daab623a8671c654e9bd4
+*** Element info: {Using=class name, value=div.user-list-info a em}
+	at selenium.testcases.SearchIT.exampleTestForUserSearch(SearchIT.java:51)
+
+      <system-out><![CDATA[2019-01-31 17:06:51.850 INFO  io.github.bonigarcia.wdm.BrowserManager - Reading http://chromedriver.storage.googleapis.com/ to seek [chromedriver]
+2019-01-31 17:06:52.450 INFO  io.github.bonigarcia.wdm.BrowserManager - Latest version of [chromedriver] is 72.0.3626.69
+2019-01-31 17:06:52.461 INFO  io.github.bonigarcia.wdm.BrowserManager - Exporting webdriver.chrome.driver as /home/veureka/.m2/repository/webdriver/chromedriver/linux64/72.0.3626.69/chromedriver
+******** exampleTestForUserSearch
+******** SearchIT -> startPage: http://github.com
+******** search.getSearchString: christian-draeger
+******** searchResultPage.getInputValue: christian-draeger
+]]></system-out>
+      <system-err><![CDATA[Starting ChromeDriver 72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38) on port 24679
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+ene 31, 2019 5:06:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+ene 31, 2019 5:06:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+    </rerunError>
+  </testcase>
+</testsuite>
