@@ -7,12 +7,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * Ejercicio 1
  * 
- * Abre el sitio http://www.google.com y realiza la consulta de la palabra Cheese! By.name
+ * Abre el sitio http://www.google.com y realiza la consulta de la palabra Cheese! By.className
  * 
  * @author Ricardo Romero
  *
  */
-public class Selenium1Example {
+public class Selenium1Example2 {
 
 	public static void main(String[] args) {
 		// Create a new instance of the Firefox driver
@@ -26,7 +26,7 @@ public class Selenium1Example {
 		// driver.navigate().to("http://www.google.com");
 
 		// Find the text input element by its name
-		WebElement element = driver.findElement(By.name("q"));
+		WebElement element = driver.findElement(By.className("gLFyf"));
 
 		// Enter something to search for
 		element.sendKeys("Cheese!");

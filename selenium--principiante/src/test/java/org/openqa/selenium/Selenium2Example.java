@@ -8,19 +8,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * Ejercicio 3
+ * Ejercicio 2
  * 
- * Abre el sitio http://eluniversal.com.mx/ y realiza la consulta de todos los elementos de la página
+ * Abre el sitio http://www.google.com y realiza la consulta de todos los elementos de la página
  * 
  * @author Ricardo Romero
  *
  */
-public class Selenium3Example {
+public class Selenium2Example {
 
 	public static void main(String[] args) {
 		WebDriver driver = new FirefoxDriver();
 
-		driver.get("http://eluniversal.com.mx/");
+		driver.get("http://google.com.mx");
 
 		List<WebElement> elements = driver.findElements(By.xpath("//*"));
 		System.out.println("Elements: " + elements.size());

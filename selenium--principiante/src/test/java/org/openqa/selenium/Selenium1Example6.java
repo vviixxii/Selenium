@@ -2,37 +2,39 @@ package org.openqa.selenium;
 
 import java.util.List;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * Ejercicio 4
+ * Ejercicio 1
  * 
- * Abre el sitio http://www.google.com y realiza la consulta de todos los elementos link de la página
+ * Abre el sitio http://www.google.com y realiza la consulta de la palabra Cheese! By.cssSelector
  * 
  * @author Ricardo Romero
  *
  */
-public class Selenium4Example {
+public class Selenium1Example6 {
 
 	public static void main(String[] args) {
+		// Create a new instance of the Firefox driver
+		// Notice that the remainder of the code relies on the interface,
+		// not the implementation.
 		WebDriver driver = new FirefoxDriver();
 
-		driver.get("http://google.com.mx");
-		
-		List<WebElement> elements = driver.findElements(By.xpath("//a"));
+		// And now use this to visit Google
+		driver.get("http://www.google.com");
+		// Alternatively the same thing can be done like this
+		// driver.navigate().to("http://www.google.com");
+
+		List<WebElement> elements = driver.findElements(By.cssSelector(".VlcLAe"));
 		System.out.println("Elements: " + elements.size());
 		System.out.println("");
 		int index = 1;
 		for(WebElement el : elements) {
 			try {
 			System.out.println("******************* " + index + " ************************");
-			//System.out.println(el.getCssValue(propertyName));
-			System.out.println("href: " + el.getAttribute("href")); 
+			System.out.println("Attribute(\"jsname\"): " + el.getAttribute("jsname"));
 			System.out.println("TagName: " + el.getTagName());
-			if(el.getText().trim().length() > 0)
+			if (el.getText().trim().length() > 0)
 				System.out.println("Text: " + el.getText());
 			System.out.println("isDisplayed: " + el.isDisplayed());
 			System.out.println("isEnabled: " + el.isEnabled());
@@ -45,6 +47,8 @@ public class Selenium4Example {
 			}
 			index++;
 		}
+
+		// Close the browser
 		driver.quit();
 	}
 }

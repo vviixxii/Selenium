@@ -11,40 +11,36 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * Ejercicio 4
  * 
  * Abre el sitio http://www.google.com y realiza la consulta de todos los elementos link de la página
+ * que parcialmente contengan la palabra AMLO By.partialLinkText
  * 
  * @author Ricardo Romero
  *
  */
-public class Selenium4Example {
+public class Selenium1Example5 {
 
 	public static void main(String[] args) {
 		WebDriver driver = new FirefoxDriver();
 
-		driver.get("http://google.com.mx");
+		driver.get("http://eluniversal.com.mx/");
 		
-		List<WebElement> elements = driver.findElements(By.xpath("//a"));
+		List<WebElement> elements = driver.findElements(By.partialLinkText("amlo"));
 		System.out.println("Elements: " + elements.size());
 		System.out.println("");
 		int index = 1;
 		for(WebElement el : elements) {
 			try {
 			System.out.println("******************* " + index + " ************************");
-			//System.out.println(el.getCssValue(propertyName));
-			System.out.println("href: " + el.getAttribute("href")); 
-			System.out.println("TagName: " + el.getTagName());
 			if(el.getText().trim().length() > 0)
 				System.out.println("Text: " + el.getText());
-			System.out.println("isDisplayed: " + el.isDisplayed());
-			System.out.println("isEnabled: " + el.isEnabled());
-			System.out.println("isSelected: " + el.isSelected());
-			System.out.println("Location: " + el.getLocation());
-			System.out.println("Size: " + el.getSize());
 			System.out.println("");
 			} catch (StaleElementReferenceException e) {
 				System.out.println("--> StaleElementReferenceException");
 			}
 			index++;
 		}
-		driver.quit();
+		
+		driver.findElement(By.partialLinkText("AMLO")).click();
+		
+		//driver.quit();
 	}
 }
