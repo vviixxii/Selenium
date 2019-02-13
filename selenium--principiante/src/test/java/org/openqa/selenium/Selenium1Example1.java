@@ -1,19 +1,23 @@
 package org.openqa.selenium;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Ejercicio 1
  * 
- * Abre el sitio http://www.google.com y realiza la consulta de la palabra Cheese!
+ * Abre el sitio http://www.google.com y realiza la consulta de la palabra Cheese! By.name
  * 
  * @author Ricardo Romero
  *
  */
-public class Selenium1Example {
+public class Selenium1Example1 {
 
 	public static void main(String[] args) {
 		// Create a new instance of the Firefox driver
+		// Notice that the remainder of the code relies on the interface,
+		// not the implementation.
 		WebDriver driver = new FirefoxDriver();
 
 		// And now use this to visit Google
@@ -33,8 +37,23 @@ public class Selenium1Example {
 		// Check the title of the page
 		System.out.println("Page title is: " + driver.getTitle());
 
+		// Google's search is rendered dynamically with JavaScript.
+		// Wait for the page to load, timeout after 10 seconds
+		(new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
+			public Boolean apply(WebDriver d) {
+				return d.getTitle().toLowerCase().startsWith("cheese!");
+			}
+		});
+
 		// Should see: "cheese! - Google Search"
 		System.out.println("Page title is: " + driver.getTitle());
+		
+		// Getting Selenium to pause for X miliseconds
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 
 		// Close the browser
 		driver.quit();
