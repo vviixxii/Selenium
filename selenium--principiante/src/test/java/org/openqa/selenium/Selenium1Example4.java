@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  * Ejercicio 1
  * 
- * Abre el sitio http://www.google.com y realiza la consulta de la palabra Cheese! By.tagName
+ * Abre el sitio http://www.google.com y realiza la consulta de la palabra Cheese! By.id
  * 
  * @author Ricardo Romero
  *

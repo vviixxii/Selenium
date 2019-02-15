@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Name Suite" parallel="false">
+	<test name="Name Test">
+	 	<classes> 		
+	 		<class name="org.openqa.selenium.testng.Selenium1Example" />
+	 		<class name="org.openqa.selenium.testng.Selenium1Example1" />
+	 		<class name="org.openqa.selenium.testng.Selenium1Example2" />
+	 		<class name="org.openqa.selenium.testng.Selenium1Example3" />
+	 		<class name="org.openqa.selenium.testng.Selenium1Example4" />
+	 	</classes>
+ 	</test>
+</suite>
